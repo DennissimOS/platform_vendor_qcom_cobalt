@@ -67,6 +67,9 @@ on post-fs-data
     mkdir /tombstones/dsps 0771 system system
     mkdir /data/vendor/hbtp 0750 system system
     mkdir /data/misc/qvr 0770 system system
+    # Create directory for dolby audio
+    mkdir /data/vendor/misc/audio 0770 audio audio
+    mkdir /data/vendor/misc/audio/dolby 0770 audio audio
 
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
