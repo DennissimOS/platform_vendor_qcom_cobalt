@@ -53,6 +53,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
+# QAHW WRAPPER
+PRODUCT_PACKAGES += \
+    libqahw.so \
+    libqahwwrapper.so \
+    hal_play_test \
+    hal_rec_test
+
 TARGET_USES_MKE2FS := true
 #QTIC flag
 -include $(QCPATH)/common/config/qtic-config.mk
