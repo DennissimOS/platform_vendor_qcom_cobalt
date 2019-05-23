@@ -41,4 +41,7 @@
 
    <!-- Device supports Sustained Performance Mode-->
    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+   <!-- Enable WPA3 support -->
+   <bool translatable="false" name="config_wifi_wpa3_supported">false</bool>
 </resources>
